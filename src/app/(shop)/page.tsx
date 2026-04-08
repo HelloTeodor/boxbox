@@ -9,6 +9,7 @@ import { WhyGiftora } from '@/components/home/WhyGiftora';
 import { NewsletterBanner } from '@/components/home/NewsletterBanner';
 import { InstagramFeed } from '@/components/home/InstagramFeed';
 import { Sustainability } from '@/components/home/Sustainability';
+import { SustainabilityBanner } from '@/components/home/SustainabilityBanner';
 
 async function getFeaturedProducts() {
   return prisma.product.findMany({
@@ -50,6 +51,7 @@ export default async function HomePage() {
       <HeroSection />
       <CategoriesGrid categories={categories} />
       <Sustainability />
+      <SustainabilityBanner />
       <WhyGiftora products={serializedProducts} />
       <Suspense fallback={<div className="h-96 animate-shimmer" />}>
         <FeaturedProducts products={serializedProducts} />
