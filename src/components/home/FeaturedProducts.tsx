@@ -19,7 +19,7 @@ interface Product {
 
 export function FeaturedProducts({ products }: { products: Product[] }) {
   return (
-    <section className="py-16 lg:py-24 bg-white">
+    <section className="pt-16 pb-32 lg:pt-24 lg:pb-40 bg-white">
       <div className="section-padding">
         <div className="flex items-end justify-between mb-12">
           <div>
