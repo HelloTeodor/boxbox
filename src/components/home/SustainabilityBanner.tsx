@@ -1,6 +1,6 @@
 export function SustainabilityBanner() {
   return (
-    <section className="bg-white pt-10 pb-6">
+    <section className="bg-white pt-16 pb-6">
       <div className="w-full bg-[#f7f3ee] h-20 md:h-24 relative overflow-hidden">
         {/* LEFT IMAGE */}
         <img
