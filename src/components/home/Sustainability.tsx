@@ -6,7 +6,7 @@ export function Sustainability() {
     >
       {/* SCALE WRAPPER */}
       <div className="scale-[0.85] origin-top">
-        <section className="relative w-[90%] mx-auto pt-16 pb-2 bg-white">
+        <section className="relative w-[90%] mx-auto pt-16 pb-0 bg-white">
           {/* WATERCOLOUR IMAGE */}
           <img
             src="https://res.cloudinary.com/dwastb4mg/image/upload/v1775496985/ChatGPT_Image_Apr_1_2026_at_11_40_18_PM_Background_Removed_tdmrh1.png"
