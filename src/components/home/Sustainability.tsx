@@ -2,7 +2,7 @@ export function Sustainability() {
   return (
     <div
       data-name="section_container"
-      className="relative w-full flex justify-center overflow-x-hidden bg-white"
+      className="relative w-full flex justify-center [overflow-x:clip] bg-white"
     >
       {/* SCALE WRAPPER */}
       <div className="scale-[0.85] origin-top">
