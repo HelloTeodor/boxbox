@@ -6,9 +6,7 @@ export function Sustainability() {
     >
       {/* SCALE WRAPPER */}
       <div className="scale-[0.85] origin-top">
-
-        <section className="relative w-[90%] mx-auto py-16">
-
+        <section className="relative w-[90%] mx-auto py-16 bg-white">
           {/* WATERCOLOUR IMAGE */}
           <img
             src="https://res.cloudinary.com/dwastb4mg/image/upload/v1775496985/ChatGPT_Image_Apr_1_2026_at_11_40_18_PM_Background_Removed_tdmrh1.png"
@@ -18,11 +16,9 @@ export function Sustainability() {
 
           {/* MAIN CONTENT */}
           <div className="relative grid lg:grid-cols-2 items-center z-10">
-
             {/* LEFT TEXT */}
             <div className="flex justify-center lg:justify-start">
               <div className="max-w-[420px] text-center lg:text-left ml-12">
-
                 <h2 className="serif text-[42px] leading-tight text-[#2f4f4f] mb-6">
                   Our Commitment <br />
                   to Sustainability
@@ -30,14 +26,12 @@ export function Sustainability() {
 
                 <p className="text-gray-600 text-[15px] leading-relaxed mb-6">
                   As a family-owned business, we believe in thoughtful gifting
-                  that doesn&apos;t harm the earth. We use eco-friendly materials,
-                  sustainable practices, and a personalized touch to create gifts
-                  that bring joy to the heart and home.
+                  that doesn&apos;t harm the earth. We use eco-friendly
+                  materials, sustainable practices, and a personalized touch to
+                  create gifts that bring joy to the heart and home.
                 </p>
 
-                <button
-                  className="bg-[#2f6f73] text-white px-7 py-3 text-xs tracking-[0.25em] rounded-sm"
-                >
+                <button className="bg-[#2f6f73] text-white px-7 py-3 text-xs tracking-[0.25em] rounded-sm">
                   LOVINGLY MADE
                 </button>
 
@@ -52,14 +46,12 @@ export function Sustainability() {
                   <span className="w-2 h-2 bg-gray-300 rounded-full"></span>
                   <span className="w-2 h-2 bg-gray-300 rounded-full"></span>
                 </div>
-
               </div>
             </div>
 
             {/* RIGHT WHITE CARD */}
             <div className="relative">
               <div className="bg-white rounded-sm shadow-lg p-8 ml-[-100px]">
-
                 {/* HEADING */}
                 <div className="flex items-center gap-4 mb-6">
                   <div className="flex-1 h-px bg-gray-300"></div>
@@ -73,7 +65,6 @@ export function Sustainability() {
 
                 {/* GRID */}
                 <div className="grid grid-cols-2 gap-8">
-
                   {/* CARD */}
                   <div>
                     <img
@@ -87,9 +78,7 @@ export function Sustainability() {
                     <h4 className="serif text-[18px] text-gray-800">
                       Make a Wish Birthday
                     </h4>
-                    <p className="text-sm text-gray-500 italic">
-                      From $59.60
-                    </p>
+                    <p className="text-sm text-gray-500 italic">From $59.60</p>
                   </div>
 
                   {/* CARD */}
@@ -105,9 +94,7 @@ export function Sustainability() {
                     <h4 className="serif text-[18px] text-gray-800">
                       Make a Wish Birthday
                     </h4>
-                    <p className="text-sm text-gray-500 italic">
-                      From $60.40
-                    </p>
+                    <p className="text-sm text-gray-500 italic">From $60.40</p>
                   </div>
 
                   {/* CARD */}
@@ -139,14 +126,11 @@ export function Sustainability() {
                       Home Sweet Home Box
                     </h4>
                   </div>
-
                 </div>
               </div>
             </div>
-
           </div>
         </section>
-
       </div>
     </div>
   );
