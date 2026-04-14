@@ -8,6 +8,7 @@ import { WhyGiftora } from '@/components/home/WhyGiftora';
 import { NewsletterBanner } from '@/components/home/NewsletterBanner';
 import { Sustainability } from '@/components/home/Sustainability';
 import { SustainabilityBanner } from '@/components/home/SustainabilityBanner';
+import { LovedByThousands } from '@/components/home/LovedByThousands';
 
 async function getCategories() {
   return prisma.category.findMany({
@@ -27,6 +28,7 @@ export default async function HomePage() {
       <Sustainability />
       <SustainabilityBanner />
       <WhyGiftora products={[]} />
+      <LovedByThousands />
       <NewsletterBanner />
     </>
   );
